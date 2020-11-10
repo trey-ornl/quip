@@ -9,7 +9,7 @@ To compile for NVidia GPUs, add the following argument to your `nvcc` compile li
 -I<quip-path>/hip2cuda
 ```
 
-To compile for AMD GPUs, add the following header path to your `hipcc` compile line.
+To compile for AMD GPUs, add the following argument to your `hipcc` compile line.
 ```
 -I<quip-path>/cuda2hip
 ```
